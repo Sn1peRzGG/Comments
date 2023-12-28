@@ -142,15 +142,12 @@ namespace WinFormsApp4
 
         private void ShowMessageBoxError()
         {
-            ShowErrorMessageBox("Сталася помилка!");
+            ShowErrorMessageBox("РЎС‚Р°Р»Р°СЃСЏ РїРѕРјРёР»РєР°!");
         }
 
         private void ShowErrorMessageBox(string errorMessage)
         {
-            for (int i = 0; i < 100; i++)
-            {
-                MessageBox.Show(errorMessage, "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            MessageBox.Show(errorMessage, "РџРѕРјРёР»РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 
